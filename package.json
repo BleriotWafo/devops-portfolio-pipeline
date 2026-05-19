@@ -6,7 +6,17 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "test": "jest"
+    "test": "jest",
+    "docker:build": "docker build -t devops-portfolio-api .",
+    "compose:up": "docker compose up --build",
+    "compose:up:detached": "docker compose up -d --build",
+    "compose:down": "docker compose down",
+    "compose:logs": "docker compose logs -f",
+    "compose:ps": "docker compose ps",
+    "prod:up": "docker compose -f docker-compose.prod.yml up -d",
+    "prod:down": "docker compose -f docker-compose.prod.yml down",
+    "prod:logs": "docker compose -f docker-compose.prod.yml logs -f",
+    "prod:ps": "docker compose -f docker-compose.prod.yml ps"
   },
   "keywords": [
     "devops",
