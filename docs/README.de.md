@@ -1,5 +1,13 @@
 # DevOps Portfolio Pipeline
 
+![CI/CD Pipeline](https://github.com/bleriotwafo/devops-portfolio-pipeline/actions/workflows/ci.yml/badge.svg)
+![Node.js](https://img.shields.io/badge/Node.js-20.x-brightgreen)
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+![Docker Compose](https://img.shields.io/badge/Docker%20Compose-Multi--Container-blue)
+![Nginx](https://img.shields.io/badge/Nginx-Reverse%20Proxy-green)
+![GHCR](https://img.shields.io/badge/GHCR-Container%20Registry-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 Sprachen:  
 [English](../README.md) | [Français](README.fr.md) | [Deutsch](README.de.md)
 
