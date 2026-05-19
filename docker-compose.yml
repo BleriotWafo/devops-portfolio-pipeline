@@ -3,7 +3,9 @@ services:
     build: .
     container_name: devops-portfolio-api
     environment:
-      - NODE_ENV=production
+      - NODE_ENV=${NODE_ENV:-production}
+      - PORT=${PORT:-3000}
+      - APP_NAME=${APP_NAME:-DevOps Portfolio Pipeline API}
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/health"]

@@ -6,7 +6,7 @@ describe("DevOps Portfolio API", () => {
     const response = await request(app).get("/");
 
     expect(response.statusCode).toBe(200);
-    expect(response.body.message).toBe("DevOps Pipeline API");
+    expect(response.body.message).toBe("DevOps Portfolio Pipeline API");
     expect(response.body.status).toBe("running");
     expect(response.body.author).toBe("Bleriot Wafo");
   });

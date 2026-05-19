@@ -2,9 +2,11 @@ const express = require("express");
 
 const app = express();
 
+const appName = process.env.APP_NAME || "DevOps Portfolio Pipeline API";
+
 app.get("/", (req, res) => {
   res.json({
-    message: "DevOps Pipeline API",
+    message: appName,
     status: "running",
     author: "Bleriot Wafo"
   });
