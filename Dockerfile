@@ -1,12 +1,25 @@
-FROM node:20-alpine
+FROM node:20-alpine AS dependencies
 
 WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install --only=production
+RUN npm ci --omit=dev
 
-COPY src ./src
+
+FROM node:20-alpine AS runtime
+
+WORKDIR /app
+
+ENV NODE_ENV=production
+
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+
+COPY --from=dependencies --chown=appuser:appgroup /app/node_modules ./node_modules
+COPY --chown=appuser:appgroup package*.json ./
+COPY --chown=appuser:appgroup src ./src
+
+USER appuser
 
 EXPOSE 3000
 
