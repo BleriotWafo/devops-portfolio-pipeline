@@ -387,6 +387,14 @@ This project demonstrates the following DevOps skills:
 
 ---
 
+## Portfolio Usage
+
+This repository is part of my personal DevOps portfolio.
+
+It focuses on demonstrating practical DevOps skills such as Docker containerization, Docker Compose orchestration, Nginx reverse proxy configuration, GitHub Actions CI/CD automation, container registry publishing and production-oriented deployment workflows.
+
+A more detailed project presentation will be available  on my personal portfolio website.
+
 ## Author
 
 **Bleriot Wafo**

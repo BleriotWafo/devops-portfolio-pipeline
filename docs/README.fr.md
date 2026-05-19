@@ -387,6 +387,14 @@ Ce projet démontre les compétences DevOps suivantes :
 
 ---
 
+## Utilisation dans le portfolio
+
+Ce repository fait partie de mon portfolio personnel DevOps.
+
+Il vise à démontrer des compétences pratiques en conteneurisation Docker, orchestration avec Docker Compose, configuration d’un reverse proxy Nginx, automatisation CI/CD avec GitHub Actions, publication d’images dans un registre de conteneurs et workflow de déploiement orienté production.
+
+Une présentation plus détaillée du projet sera disponible  sur mon site portfolio personnel.
+
 ## Auteur
 
 **Bleriot Wafo**

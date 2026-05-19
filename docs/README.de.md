@@ -387,6 +387,14 @@ Dieses Projekt zeigt folgende DevOps-Kompetenzen:
 
 ---
 
+## Verwendung im Portfolio
+
+Dieses Repository ist Teil meines persönlichen DevOps-Portfolios.
+
+Es zeigt praktische Kenntnisse in Docker-Containerisierung, Orchestrierung mit Docker Compose, Konfiguration eines Nginx Reverse Proxy, CI/CD-Automatisierung mit GitHub Actions, Veröffentlichung von Docker-Images in einer Container Registry und produktionsnahen Deployment-Workflows.
+
+Eine ausführlichere Projektpräsentation wird später auf meiner persönlichen Portfolio-Webseite verfügbar sein.
+
 ## Autor
 
 **Bleriot Wafo**
