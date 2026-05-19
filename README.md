@@ -3,6 +3,8 @@
 Languages:  
 [English](README.md) | [Français](docs/README.fr.md) | [Deutsch](docs/README.de.md)
 
+Architecture: [View architecture diagram](docs/ARCHITECTURE.md)
+
 ## Overview
 
 DevOps Portfolio Pipeline is a practical DevOps project built to demonstrate how a modern web application can be containerized, tested, published and deployed using professional DevOps tools.
